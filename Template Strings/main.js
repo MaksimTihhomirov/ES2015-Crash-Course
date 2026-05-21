@@ -1,9 +1,11 @@
-new Vue({
-    template: `
-    <div class="Alert">
-    
-    <p>Foobar</p>
-    
-    </div>
-    `
-})
+let name = 'Foo';
+
+let template =`
+<div class="Alert">
+<p>Foo</p>,
+
+</div>
+
+`;
+
+console.log(template);
